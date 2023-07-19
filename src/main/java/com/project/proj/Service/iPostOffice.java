@@ -1,4 +1,4 @@
-package com.project.proj.service;
+package com.project.proj.Service;
 
 import com.project.proj.output.PostOfficeResponseBean;
 
