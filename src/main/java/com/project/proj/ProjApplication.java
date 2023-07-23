@@ -12,9 +12,9 @@ public class ProjApplication {
 		SpringApplication.run(ProjApplication.class, args);
 	}
 
-	@Bean
-	public RestTemplate restTemplate(){
-		return new RestTemplate();
-	}
+	// @Bean
+	// public RestTemplate restTemplate(){
+	// 	return new RestTemplate();
+	// }
 
 }
