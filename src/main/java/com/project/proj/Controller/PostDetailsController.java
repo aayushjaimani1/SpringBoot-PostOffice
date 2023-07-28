@@ -20,13 +20,13 @@ public class PostDetailsController {
     @Autowired
     iPostOffice PostOfficeServiceImpl;
     
-    // @RequestMapping(value="/byCity", method=RequestMethod.GET,
-    // consumes = MediaType.ALL_VALUE , produces = MediaType.APPLICATION_JSON_VALUE)
-    // public PostOfficeResponseBean getPostByCity(@RequestParam String city) {
-    //     PostOfficeResponseBean postResponse;
+    @RequestMapping(value="/byCity", method=RequestMethod.GET,
+    consumes = MediaType.ALL_VALUE , produces = MediaType.APPLICATION_JSON_VALUE)
+    public PostOfficeResponseBean getPostByCity(@RequestParam String city) {
+        PostOfficeResponseBean postResponse;
 
-    //     postResponse=PostOfficeServiceImpl.fetchPostOfficeDetailsByCity(city);
-    //     return postResponse;
-    // }
+        postResponse=PostOfficeServiceImpl.fetchPostOfficeDetailsByCity(city);
+        return postResponse;
+    }
     
 }
