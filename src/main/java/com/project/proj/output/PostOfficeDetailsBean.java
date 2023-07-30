@@ -2,13 +2,13 @@ package com.project.proj.output;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-// import lombok.Data;
-// import lombok.Getter;
-// import lombok.Setter;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-// @Getter
-// @Setter
-// @Data
+@Getter
+@Setter
+@Data
 
 public class PostOfficeDetailsBean {
     
