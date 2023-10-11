@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.project.proj.output.PostOfficeResponseBean;
-import com.project.proj.Service.PostOfficeServiceImpl;
 import com.project.proj.Service.iPostOffice;
 
 import org.springframework.web.bind.annotation.RequestMethod;
